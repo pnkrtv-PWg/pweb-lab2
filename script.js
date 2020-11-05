@@ -5,8 +5,8 @@ console.log(variant);
 
 var rez = document.getElementById('var_b');
 function calc_click_katet(){
-    var a = document.getElementById('var_a').value;
-    var c = document.getElementById('var_c').value;
+    var a = parseInt(document.getElementById('var_a').value);
+    var c = parseInt(document.getElementById('var_c').value);
     if (a <= 0 || c <=0){
         alert("Сторона не може мати від'ємні значення або нуль!");
         rez.innerHTML = 0;  
