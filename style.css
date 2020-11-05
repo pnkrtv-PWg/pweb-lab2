@@ -1,0 +1,38 @@
+h1{
+    font-family: 'Comic Sans MS';
+    color: #006666;
+}
+
+p{
+    font-family: 'Trebuchet MS';
+}
+  
+#calc{
+    font-family: Verdana;
+    font-size: 12pt;
+    font-weight: bold;
+    color: white;
+    background-color: #006666;
+    border-radius: 30px;
+    text-decoration: none;
+    border: 1px solid #006666;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+  
+#calc:hover{
+    color: #006666;
+    background-color: white;
+    border-radius: 30px;
+    border: 1px solid #006666;
+}
+
+.triangle{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 80px 80px 80px 80px;
+    border-color: transparent #006666 #006666 transparent;
+    filter: drop-shadow(0 0 5px #000);
+}
