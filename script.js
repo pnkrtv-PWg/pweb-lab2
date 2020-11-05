@@ -1,7 +1,6 @@
-console.log('start');
-
 var variant = 6 % 6 + 1;
 document.getElementById("variant").innerHTML = variant;
+
 console.log(variant);
 
 var rez = document.getElementById('var_b');
